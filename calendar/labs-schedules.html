@@ -1,61 +1,109 @@
-<!DOCTYPE HTHL PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3c.org//TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 
 <head>
+
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>LABs' Schedules | Fall Semester</title>
-	<link rel="stylesheet" type="text/css" href="../css/960.css" id="gridStyle"/>
-	<link rel="stylesheet" type="text/css" href="../css/style.css" id="style"/>
-	<link rel="stylesheet" type="text/css" href="../css/menu.css" id="menuStyle"/>
-	<link rel="stylesheet" type="text/css" href="../css/nav.css" id="navStyle"/>
+	<title>Schedule of Labs | CS Department</title>
+
+	<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="../css/text.css" />
+	<link rel="stylesheet" type="text/css" href="../css/960.css" />
+	<link rel="stylesheet" type="text/css" href="../css/style.css" />
 	<link rel="stylesheet" type="text/css" href="../css/calendar.css" />
-	<!--[if IE]>
-		<link rel="stylesheet" type="text/css" href="../css/menuIE.css" />
-	<![endif]-->
+	
 </head>
 
-<body onresize = "adjustStyle();">
+<body>
 
-<!--HEADER----------------------------------------------------------------------------------------------------------------------------------------------------->
-	
-	<div id="header">
-		
-		<div id="header-wrap" class="container_12">
-		
-			<div id="iaau"><img src="../img/iaau.png" alt="INTERNATIONAL ATATURK - ALATOO UNIVERSITY" width="294" height="13" /></div>
-			<div id="logo"><img src="../img/logo.png" alt="COMPUTER SCIENCE DEPARTMENT" width="395" height="28" /></div>
-			
-			<ul class="bmenu">
-				<li><a href="../index.html" class="about">ABOUT</a></li>
-				<li><a href="../program/program.html" >PROGRAM</a></li>
-				<li><a href="../faculty/faculty.html" >FACULTY</a></li>
-				<li><a href="../master/master.html" >MASTER / PHD</a></li>
-				<li><a href="calendar.html" >CALENDAR</a></li>
-				<li><a href="../labs/lab.html" >LABORATORY</a></li>
-			</ul>
-			
-		</div><!--header-wrap-->
-	
-	</div><!--header-->
+<div id="container">
 
-<!--CONTENT---------------------------------------------------------------------------------------------------------------------------------------------------->	
-	
-	<div id="content">
-	
-		<div id="content-shadow"></div>
-		
-		<div id="wrap-content" class="container_12">
-		
-			<h2 id="center-heading">LAB SCHEDULEs Fall Semester 2012-2013</h2>
-            <h3 align="right">Last Updated: 25.11.2012</h3>
-            <p align="right">Download <a href="files/LABS3-4-PROGRAM.pdf">Schedule of LABS</a></p>
-			
-			<div id="st-accordion" class="st-accordion">
-				
-				<ul>
-					<!-- Lab - 3-->
-                	<li>
-						<a href="#">Computer Networking Lab : 3<span class="st-arrow">Open or Close</span></a>
+    <!-- HEARDER -->
+    <div id="header-wrap">
+            
+        <div id="header" class="container_16">
+    
+            <div id="logo" class="grid_5">
+                <img alt="Computer Engineering Department" src="../images/logo.png" />
+            </div>
+            <!-- Navigation -->				
+            <div id="nav" class="grid_11">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li>
+                        <a href="javascript:void(0)">Department</a>
+                        <ul id="department">
+                            <li><a href="../department/news.html">News</a></li>
+                            <li><a href="../department/developments.html">Developments</a></li>
+                            <li><a href="http://ic.iaau.edu.kg" target="_blank">Student Exchange</a></li>
+                            <li><a href="../department/prospective-students.html">Prospective Students</a></li>
+                            <li><a href="../department/graduates.html">Graduates</a></li>
+                            <li><a href="../department/contact-us.html" >Contact Us</a></li>
+                            <li><a href="../department/info.html" >Info</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">Program</a>
+                        <ul id="program">
+                            <li><a href="../program/courses.html">Courses</a></li>
+                            <li><a href="../program/research.html">Research</a></li>
+                            <li><a href="../program/degree-guide.html">Degree Guide</a></li>
+                            <li><a href="../program/recent-diplomas.html">Recent Diplomas</a></li>
+                            <li><a href="../program/admission.html">Admission</a></li>
+                            <li><a href="../program/faq.html">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">Master Degree</a>
+                        <ul id="master">
+                            <li><a href="../admission/overview.html">Overview</a></li>
+                            <li><a href="../admission/courses.html">Courses</a></li>
+                            <li><a href="../admission/graduate-research.html">Graduate Research</a></li>
+                            <li><a href="../admission/admission.html">Admission</a></li>
+                        </ul>
+                    </li>
+                    <li >
+                        <a href="javascript:void(0)" >Calendar</a>
+                        <ul id="calendar">
+                            <li><a href="../calendar/academic-calendar.html">Academic Calendar</a></li>
+                            <li><a href="../calendar/schedule-of-lectures.html">Schedule of Lectures</a></li>
+                            <li><a href="../calendar/midterms.html">Midterms Schedule</a></li>
+                            <li><a href="../calendar/finals.html">Finals Schedule</a></li>
+                            <li><a href="../calendar/labs.html">Labs Schedule</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="../faculty/faculty.html">Faculty</a>
+                    </li>
+                    <li>
+                        <a href="../labs/labs.html">Laboratories</a>
+                        <ul id="labs">
+                            <li><a href="../labs/policy.html">Policy &amp; Regulations</a></li>
+                            <li><a href="../labs/software.html">Software</a></li>
+                            <li><a href="../calendar/labs.html">Schedules</a></li>
+                            <li><a href="../labs/research.html">Research</a></li>
+                            <li><a href="../labs/people.html">People</a></li>
+                            <li><a href="../labs/education.html">Education</a></li>
+                            <li><a href="../department/contact-us.html">Contacts</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+	<!-- CONTENT -->
+	<div id="wrap-content">
+		<div id="content" class="container_12">
+		<h5 class="center-text">LABs' Schedule of CS Department 2013-2014 FALL SEMESTER</h5>
+		<h5 align="right">Last Updated: 13.09.2013</h5>
+        <p align="right">Download <a href="files/CS Fall 2013 Schedule.xlsx">Schedule of LABS </a></p>	
+		<div id="st-accordion" class="st-accordion grid_12">
+            <ul id="schedule">
+					
+					<!--Lab - 1-->
+					<li>
+						<a href="#" style = "color: #101010;">LAB - 1 Schedule 2013-2014 : FALL SEMESTER - CS department<span class="st-arrow">Open or Close</span></a>
 						<div class="st-content">
 							<table>
 								<tr class="hours">
@@ -71,56 +119,258 @@
 								
 								<tr class="other-table-elements">
 									<td>Monday</td>
-									<td colspan="2">Algorithms & Programming I<br/>M.Muhammed / Lab-3</td>
-									<td colspan="3">Operating System Concepts<br/>N.Shaidullaev / Lab-3</td>
-                                    <td colspan="2">Object Oriented Programming<br/>N.Shaidullaev / Lab-3</td>
-									<td colspan="1"></td>
-                                    <td colspan="1"></td>
+									<td></td>
+                                    <td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
 								</tr>
 								
 								<tr class="other-table-elements">
 									<td>Tuesday</td>
-									<td colspan="2">Algorithms & Programming I<br/>M.Muhammed / Lab-3</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
 									<td></td>
-									<td colspan="2">Algorithms & Programming I<br/>M.Muhammed / Lab-3</td>
-                                    <td colspan="2">Computer Graphics<br/>S.Erdolatov / Lab-3</td>
-									<td colspan="1"></td>
-                                    <td colspan="1"></td>
+									<td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
                                 </tr>
 																									
 								<tr class="other-table-elements">
 									<td>Wednesday</td>
-									<td colspan="2">Computer Networks & Telecommunications I<br/>S.Erdolatov / Lab-3</td>
-                                    <td colspan="2">Software Engineering II<br/>M.Muhammed / Lab-3</td>
-									<td colspan="2">Web Technologies<br/>N.Shaidullaev / Lab-3</td>
-									<td colspan="1"></td>
-                                    <td colspan="1"></td>
-                                    <td colspan="1"></td>
+									<td></td>
+                                    <td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
 								</tr>
 								
 								<tr class="other-table-elements">
 									<td>Thursday</td>
-									<td colspan="2">MS Office, Programming<br/>M.Simsek / Lab-3</td>
-									<td colspan="2">Algorithms & Programming I<br/>M. Muhammed / Lab-3</td>
                                     <td></td>
-									<td colspan="2">Programming Lab I<br/>MAT-ELT-10<br/>A.Akbalaev / Lab-3</td>
-									<td colspan="1"></td>
-                                    <td colspan="1"></td>
+                                    <td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+								</tr>
+								<tr class="other-table-elements">
+									<td>Friday</td>
+									<td></td>
+                                    <td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+								</tr>
+								<tr class="other-table-elements">
+									<td>Saturday</td>
+									<td></td>
+                                    <td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+								</tr>
+							</table>
+						</div>
+					</li>
+					<!--Lab - 2-->
+					<li>
+						<a href="#" style = "color: #101010;">LAB - 2 Schedule 2013-2014 : FALL SEMESTER - CS department<span class="st-arrow">Open or Close</span></a>
+						<div class="st-content">
+							<table>
+								<tr class="hours">
+									<td rowspan="2">Days/Hours</td>
+									<td>1st Hour</td><td>2nd Hour</td><td>3rd Hour</td><td>4th Hour</td><td>5th Hour</td>
+									<td>6th Hour</td><td>7th Hour</td><td>8th Hour</td><td>9th Hour</td>
+								</tr>
+								
+								<tr c>
+									<td>09:00-09:40</td><td>09:50-10:30</td><td>10:40-11:20</td><td>11:30-12:10</td><td>12:20-13:00</td>
+									<td>13:50-14:30</td><td>14:40-15:20</td><td>15:30-16:10</td><td>16:20-17:00</td>
 								</tr>
 								
 								<tr class="other-table-elements">
-									<td>Friday</td>
-									<td colspan="2">Engineering Computer Graphics<br/>M. Muhammed / Lab-3</td>
-                                    <td colspan="2">Project Management<br/>M.Shimshek / Lab-3</td>
+									<td>Monday</td>
+									<td></td>
                                     <td></td>
-									<td colspan="4">Database Management<br/>U. Bayaliev / Lab-3</td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+								</tr>
+								
+								<tr class="other-table-elements">
+									<td>Tuesday</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+                                </tr>
+																									
+								<tr class="other-table-elements">
+									<td>Wednesday</td>
+									<td></td>
+                                    <td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+								</tr>
+								
+								<tr class="other-table-elements">
+									<td>Thursday</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+								</tr>
+								<tr class="other-table-elements">
+									<td>Friday</td>
+									<td></td>
+                                    <td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+								</tr>
+								<tr class="other-table-elements">
+									<td>Saturday</td>
+									<td></td>
+                                    <td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+								</tr>
+							</table>
+						</div>
+					</li>
+					<!--Lab - 3-->
+					<li>
+						<a href="#" style = "color: #101010;">LAB - 3 Schedule 2013-2014 : FALL SEMESTER - CS department<span class="st-arrow">Open or Close</span></a>
+						<div class="st-content">
+							<table>
+								<tr class="hours">
+									<td rowspan="2">Days/Hours</td>
+									<td>1st Hour</td><td>2nd Hour</td><td>3rd Hour</td><td>4th Hour</td><td>5th Hour</td>
+									<td>6th Hour</td><td>7th Hour</td><td>8th Hour</td><td>9th Hour</td>
+								</tr>
+								
+								<tr c>
+									<td>09:00-09:40</td><td>09:50-10:30</td><td>10:40-11:20</td><td>11:30-12:10</td><td>12:20-13:00</td>
+									<td>13:50-14:30</td><td>14:40-15:20</td><td>15:30-16:10</td><td>16:20-17:00</td>
+								</tr>
+								
+								<tr class="other-table-elements">
+									<td>Monday</td>
+									<td colspan="2">Algorithms & Programming - 1<br/> Bayaliev U.</td>
+									<td colspan="2">Data Bases <br/> Bayaliev U.</td>
+                                    <td></td>
+									<td colspan="4">Management of Information Systems</td>
+								</tr>
+								
+								<tr class="other-table-elements">
+									<td>Tuesday</td>
+                                    <td></td>
+									<td></td>
+									<td colspan="2">Web Technologies <br/> Shaidullaev N.</td>
+									<td></td>
+									<td></td>
+									<td colspan="2">Theory of Computation <br/> Amanov I.</td>
+                                    <td></td>
+                                </tr>
+																									
+								<tr class="other-table-elements">
+									<td>Wednesday</td>
+									<td colspan="2">Engineering Computer Graphics <br/> Abdykerimov A.</td>
+                                    <td></td>
+									<td></td>
+									<td colspan="2">Technical English <br/> Shaidullaev N.</td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								
+								<tr class="other-table-elements">
+									<td>Thursday</td>
+                                    <td colspan="2">Computer Graphics <br/> Abdykerimov A.</td>
+                                    <td colspan="2">Computer Graphics <br/> Abdykerimov A.</td>
+									<td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr class="other-table-elements">
+									<td>Friday</td>
+									<td></td>
+                                    <td></td>
+									<td colspan="2">Computer Graphics <br/> Abdykerimov A.</td>
+                                    <td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
+								</tr>
+								<tr class="other-table-elements">
+									<td>Saturday</td>
+									<td colspan="4">Object Oriented Programming</td>
+                                    <td></td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+                                    <td></td>
 								</tr>
 							</table>
 						</div>
 					</li>
 					<!--Lab - 4-->
 					<li>
-						<a href="#">Software Development Lab : 4<span class="st-arrow">Open or Close</span></a>
+						<a href="#" style = "color: #101010;">LAB - 4 Schedule 2013-2014 : FALL SEMESTER - CS department<span class="st-arrow">Open or Close</span></a>
 						<div class="st-content">
 							<table>
 								<tr class="hours">
@@ -136,114 +386,165 @@
 								
 								<tr class="other-table-elements">
 									<td>Monday</td>
-									<td colspan="1"></td>
-									<td colspan="2">Programming Languages<br/>/ Lab-4</td>
-                                    <td colspan="2">Algorithms & Programming I <br/>ELT-MAT-11 M. Muhammet / Lab-4</td>
-									<td colspan="1"></td>
-                                    <td colspan="1"></td>
-                                    <td colspan="1"></td>
-                                    <td colspan="1"></td>
+									<td colspan="2">Programming Languages - 1 <br/> Bondarev A.</td>
+									<td colspan="2">Programming Languages - 1 <br/> Bondarev A.</td>
+									<td colspan="2">Data Bases <br/> Bayaliev U.</td>
+                                    <td></td>
+									<td></td>
+									<td></td>
 								</tr>
 								
 								<tr class="other-table-elements">
 									<td>Tuesday</td>
-									<td colspan="2">Algorithms & Programming I</br>M.Muhammed / Lab-4</td>
+                                    <td colspan="2">Data Structures <br/> Bondarev A.</td>
+									<td colspan="2">Data Bases <br/> Bayaliev U.</td>
 									<td></td>
 									<td></td>
                                     <td></td>
-									<td colspan="2">Programming Languages <br/>MAT-ELT-10<br/>A.Akbalaev / Lab-4</td>
-                                    <td colspan="1"></td>
-                                    <td colspan="1"></td>
+									<td></td>
+									<td></td>
                                 </tr>
 																									
 								<tr class="other-table-elements">
 									<td>Wednesday</td>
-									<td colspan="1"></td>
-                                    <td colspan="1"></td>
-                                    <td colspan="2">Network Technoloogies<br/>Lab-4</td>
-									<td colspan="1"></td>
-                                    <td colspan="1"></td>
-									<td colspan="2">Data Structures I<br/>Lab-4</td>
-                                    <td colspan="1"></td>                                    
+									<td colspan="2">Data Bases <br/> Bayaliev U.</td>
+                                    <td colspan="2">Algorithms & Prog.I<br/> Bayaliev U.</td>
+									<td colspan="2">Data Bases <br/> Bayaliev U.</td>
+									<td></td>
+									<td></td>
+									<td></td>
 								</tr>
 								
 								<tr class="other-table-elements">
 									<td>Thursday</td>
-									<td colspan="1"></td>
-                                    <td colspan="1"></td>
-									<td colspan="2">Data Structures I<br/>Lab-4</td>
+									<td colspan="2">Programming Languages - 1 <br/> Bondarev A.</td>
+                                    <td colspan="2">Programming Languages - 1 <br/> Bondarev A.</td>
 									<td></td>
                                     <td></td>
-									<td colspan="2">Programming Languages <br/>MAT-ELT-10<br/>A.Akbalaev / Lab-4</td>
-									<td colspan="1"></td>
-                                    <td colspan="1"></td>
+									<td></td>
+									<td></td>
+									<td></td>
 								</tr>
 								
 								<tr class="other-table-elements">
 									<td>Friday</td>
-									<td colspan="2">Network Technoloogies<br/>Lab-4</td>
-                                    <td colspan="2">Computer Networks<br/>S.Erdolatov / Lab-4</td>
+									<td colspan="2">Algorithms & Prog.I<br/> Bayaliev U.</td>
+									<td colspan="3">Operating Systems Concepts <br/> Shaidullaev N.</td>
                                     <td></td>
-									<td colspan="2">Algorithms & Programming<br/>IDE-12 / Lab 4</td>
+                                    <td></td>
+									<td></td>
 									<td></td>
                                     <td></td>
 								</tr>
 							</table>
 						</div>
 					</li>
-				
-				</ul>
-				
-			</div>						
-		</div>
-		
-	</div><!--content-->
-		
-<!--FOOTER----------------------------------------------------------------------------------------------------------------------------------------------------->
+					<!-- Lab - MAT-->
+                	<li>
+						<a href="javascript:void(0)" style = "color: #101010;">LAB - 2 Schedule 2013-2014: FALL SEMESTER - MAT department<span class="st-arrow">Open or Close</span></a>
+						<div class="st-content">
+							<table>
+								<tr class="hours">
+									<td rowspan="2">Days/Hours</td>
+									<td>1st Hour</td><td>2nd Hour</td><td>3rd Hour</td><td>4th Hour</td><td>5th Hour</td>
+									<td>6th Hour</td><td>7th Hour</td><td>8th Hour</td><td>9th Hour</td>
+								</tr>
+								
+								<tr >
+									<td>09:00-09:40</td><td>09:50-10:30</td><td>10:40-11:20</td><td>11:30-12:10</td><td>12:20-13:00</td>
+									<td>13:50-14:30</td><td>14:40-15:20</td><td>15:30-16:10</td><td>16:20-17:00</td>
+								</tr>
+								
+								<tr class="other-table-elements">
+									<td>Monday</td>
+                                    <td colspan="2">Maple</td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								
+								<tr class="other-table-elements">
+									<td>Tuesday</td>
+									<td colspan="2">Programming Lab - 3</td>
+									<td colspan="2">Methods of Quality Management</td>
+                                    <td colspan="4">Artificial Intelligence</td>
+									<td></td>
+                                </tr>
+																									
+								<tr class="other-table-elements">
+									<td>Wednesday</td>
+									<td colspan="2">Maple</td>
+                                    <td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+                                    <td colspan="2">MS Office</td>
+								</tr>
+								
+								<tr class="other-table-elements">
+									<td>Thursday</td>
+									<td colspan="2">Marketing</td>
+									<td></td>
+                                    <td colspan="2">Computer Organization</td>
+                                    <td colspan="2">Computer Networks & Telecommunication</td>
+                                    <td></td>
+									<td></td>
+                                    
+								</tr>
+								<tr class="other-table-elements">
+									<td>Friday</td>
+									<td colspan="3">Modeling and Simulation</td>
+                                    <td colspan="2">Programming Lab - 3</td>
+                                    <td></td>
+									<td></td>
+                                    <td></td>
+									<td></td>
+								</tr>
+							</table>
+						</div>
+					</li>
+			</ul>
+		</div> <!-- Eng od st-accordion -->						
+	</div>
+	</div>
+	<!-- END OF CONTENT -->
 
-	<div id="footer">
+	<!-- FOOTER -->
+	<div id="footer-wrap" >
 		
-		<div id="footer-wrap">
-			<div id="footer-text">
-			<p>International Ataturk Alatoo University © Copyright 2012, All Rights Reserved</p>
-			</div>
+		<div id="footer" class="container_12">
+		
+			<p class="f-left">&copy; 2013 International Ataturk Alatoo University</p>
+			<p class="f-right">Developed & Designed by Azamat Turgunbaev COM08</p>
+				
 		</div>
 	
-	</div><!--footer-->
+	</div>
+	<!-- END OF FOOTER -->
+</div>	
 
-<!--NAVIGATION------------------------------------------------------------------------------------------------------------------------------------------------->
-
-	<div id="navigation">
-		
-		<div class="container_12">
-		
-			<div id="menu2" class="menu">
-				<ul>
-                	<li><a href="calendar.html">Calendar</a></li>
-					<li><a href="schedule.html">Schedule of Classes</a></li>
-                    <li><a href="labs-schedules.html">Schedule of LABs</a></li>
-                    <li><a href="midterm.html">Midterm Exams Schedule</a></li>
-                    <li><a href="finals.html">Final Exams Schedule</a></li>
-                    <li><a href="academic.html">Academic Calendar</a></li>
-				</ul>
-			</div>
-			
-		</div>
-	
-	</div><!--navigation-->	
-	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<!-- JAVASCRIPT -->
+	<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="../js/jquery.accordion.js"></script>
-	<script type="text/javascript" src="../js/nav.js"></script>
-	<script type="text/javascript" src="../js/minimized.other.js"></script>
 	<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../js/highlight.js"></script>
+	
 	<script type="text/javascript">
 		$(function() {
 		
 			$('#st-accordion').accordion();
 			
 		});
+
+		$('table tbody tr:nth-child(odd)').addClass('odd');
+		$('table tbody tr:nth-child(even)').addClass('even');
 	</script>
-	
+
 </body>
 
 </html>
